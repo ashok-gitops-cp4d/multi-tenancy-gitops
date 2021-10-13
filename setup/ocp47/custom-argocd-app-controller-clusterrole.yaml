@@ -280,3 +280,9 @@ rules:
       - cpd.ibm.com
     resources:
       - ibmcpds
+  - verbs:
+      - '*'
+    apiGroups:              # Watson Studio
+      - ws.cpd.ibm.com
+    resources:
+      - ws

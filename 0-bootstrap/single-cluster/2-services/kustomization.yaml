@@ -21,6 +21,8 @@ resources:
 #- argocd/instances/ibm-process-mining-instance.yaml
 
 ## Cloud Pak for Data
+#- argocd/operators/ibm-cpd-watson-studio-operator.yaml
+#- argocd/instances/ibm-cpd-watson-studio-instance.yaml
 #- argocd/operators/ibm-cpd-platform-operator.yaml
 #- argocd/operators/ibm-cpd-scheduling-operator.yaml
 #- argocd/instances/ibm-cpd-instance.yaml
